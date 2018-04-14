@@ -1,0 +1,9 @@
+:host {
+  display: flex;
+  height: var(--header-height);
+  align-items: center;
+  font-size: 18px;
+  padding: 0 15px;
+  color: var(--black-color);
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+}

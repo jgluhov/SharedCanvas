@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   styleUrls: [ './home.styles.css' ],
   template: `
-    <p>Shared Canvas</p>
+
   `
 })
 

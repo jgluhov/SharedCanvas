@@ -1,3 +1,7 @@
 :root {
   --blue-color: #66ccff;
+  --white-color: #ffffff;
+  --black-color: #000000;
+
+  --header-height: 50px;
 }
