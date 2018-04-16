@@ -11,24 +11,24 @@ import { animate, trigger, state, style, transition } from '@angular/animations'
   `,
   animations: [
     trigger('logoState', [
-      state('active', style({
+      state('hovered', style({
         transform: 'scale(1.1)'
       })),
-      state('inactive', style({
+      state('*', style({
         transform: 'scale(1)'
       })),
-      transition('inactive => active', animate('100ms ease-in')),
-      transition('active => inactive', animate('100ms ease-out'))
+      transition('* => hovered', animate('100ms ease-in')),
+      transition('hovered => *', animate('100ms ease-out'))
     ])
   ]
 })
 
 export class LogoComponent {
-  public logoState = 'inactive';
+  public logoState = '';
   @HostListener('mouseenter') handleMouseEnter() {
-    this.logoState = 'active';
+    this.logoState = 'hovered';
   }
   @HostListener('mouseleave') handleMouseLeave() {
-    this.logoState = 'inactive';
+    this.logoState = '';
   }
 }
