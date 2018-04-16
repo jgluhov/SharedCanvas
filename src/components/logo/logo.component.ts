@@ -12,7 +12,7 @@ import { animate, trigger, state, style, transition } from '@angular/animations'
   animations: [
     trigger('logoState', [
       state('hovered', style({
-        transform: 'scale(1.1)'
+        transform: 'scale(1.05)'
       })),
       state('*', style({
         transform: 'scale(1)'

@@ -1,8 +1,11 @@
-:host header {
+:host .header {
   display: flex;
   height: var(--header-height);
   align-items: center;
   padding: 0 15px;
   box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
   background-color: var(--white-color);
+}
+:host .header__version {
+  padding: 0px 10px;
 }
