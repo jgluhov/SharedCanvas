@@ -4,9 +4,10 @@ import { Component } from '@angular/core';
   selector: 'app-header',
   template: `
     <header>
-      <ng-content></ng-content>
+      <app-logo>Shared Canvas</app-logo>
     </header>
   `,
   styleUrls: ['./header.styles.css']
 })
-export class HeaderComponent {}
+export class HeaderComponent {
+}

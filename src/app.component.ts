@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-root',
   template: `
     <div class="container">
-      <app-header>Shared Canvas</app-header>
+      <app-header></app-header>
       <router-outlet></router-outlet>
     </div>
   `
