@@ -2,7 +2,7 @@ import { TestBed, async, ComponentFixture } from '@angular/core/testing';
 import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 import { HomeComponent } from './home.component';
-import { SidebarComponent } from '../components';
+import { SidebarModule } from '../../modules';
 
 describe('HomeComponent: Spec', () => {
     let fixture: ComponentFixture<HomeComponent>;
@@ -11,9 +11,11 @@ describe('HomeComponent: Spec', () => {
 
     beforeEach(async() => {
         TestBed.configureTestingModule({
+            imports: [
+              SidebarModule
+            ],
             declarations: [
-              HomeComponent,
-              SidebarComponent
+              HomeComponent
             ]
         })
         .compileComponents();

@@ -4,24 +4,17 @@ import { RouterModule, Routes } from '@angular/router';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppComponent } from './app.component';
 import { AppRoutingModule } from './app-routing.module';
-import {
-  HeaderComponent,
-  LogoComponent,
-  VersionComponent,
-  SidebarComponent
-} from './components';
+import { HeaderModule } from './modules';
 
 @NgModule({
     imports: [
         BrowserModule,
         AppRoutingModule,
-        BrowserAnimationsModule
+        BrowserAnimationsModule,
+        HeaderModule
     ],
     declarations: [
-      AppComponent,
-      HeaderComponent,
-      LogoComponent,
-      VersionComponent
+      AppComponent
     ],
     bootstrap: [ AppComponent ]
 })

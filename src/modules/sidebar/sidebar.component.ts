@@ -3,8 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-sidebar',
   template: `
-    <div class="container"></div>
+    <app-palette></app-palette>
   `,
   styleUrls: ['./sidebar.styles.css']
 })
-export class SidebarComponent {}
+export class SidebarComponent {
+}

@@ -1,13 +1,13 @@
-import { Component } from '@angular/core';
+import {
+    Component
+} from '@angular/core';
 
 @Component({
-  selector: 'app-root',
-  template: `
-    <div class="container">
-      <app-header></app-header>
-      <router-outlet></router-outlet>
-    </div>
-  `
+    selector: 'app-root',
+    template: `
+        <app-header></app-header>
+        <router-outlet></router-outlet>
+    `,
+    styleUrls: ['./app.styles.css']
 })
-export class AppComponent {
-}
+export class AppComponent {}
