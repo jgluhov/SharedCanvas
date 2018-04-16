@@ -5,7 +5,7 @@ import { animate, trigger, state, style, transition } from '@angular/animations'
   selector: 'app-logo',
   styleUrls: [ './logo.styles.css' ],
   template: `
-    <div class="logo" [@logoState]="logoState">
+    <div [@logoState]="logoState">
       <ng-content></ng-content>
     </div>
   `,
