@@ -6,17 +6,10 @@ import {
 @Component({
     selector: 'app-palette-item',
     template: `
-        <div [ngClass]="getClass()"></div>
+        <button [style.backgroundColor]="color"></button>
     `,
     styleUrls: [ './palette-item.styles.css' ]
 })
 export class PaletteItemComponent {
     @Input('color') color = '';
-
-    getClass(color: string) {
-        return {
-            'palette__element': true,
-            [`palette__element-${this.color}`]: true
-        };
-    }
 }

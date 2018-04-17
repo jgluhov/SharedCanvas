@@ -1,3 +1,20 @@
-:host {
-    width: var(--palette-item-width);
+:host > button {
+	width: 56px;
+	height: 56px;
+	display: inline-block;
+	position: relative;
+	line-height: 56px;
+	background-color: #eaeaea;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#f6f6f6), to(#eaeaea));
+	background-image: -webkit-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: -moz-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: -ms-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: -o-linear-gradient(top, #f6f6f6, #eaeaea);
+	background-image: linear-gradient(top, #f6f6f6, #eaeaea);
+	-moz-border-radius: 32px;
+	-webkit-border-radius: 32px;
+	border-radius: 32px;
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, .25), 0 2px 3px rgba(0, 0, 0, .1);
 }

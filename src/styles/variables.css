@@ -7,5 +7,7 @@
   --header-height: 50px;
 
   --sidebar-width: 60px;
-  --palette-item-width: 60px;
+
+  --palette-item-height: 50px;
+  --palette-item-width: 50px;
 }
