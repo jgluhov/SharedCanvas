@@ -1,4 +1,4 @@
-:host {
+.sidebar {
   display: flex;
   width: var(--sidebar-width);
   justify-content: center;
