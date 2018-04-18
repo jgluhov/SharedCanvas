@@ -12,7 +12,7 @@ import {
 })
 
 export class CircleButtonComponent {
-    public active: boolean = false;
+    public active = false;
 
     toggle() {
         this.active = !this.active;
