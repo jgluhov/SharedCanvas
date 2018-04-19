@@ -8,6 +8,6 @@ import {
         <app-header></app-header>
         <router-outlet></router-outlet>
     `,
-    styleUrls: ['./app.styles.css']
+    styleUrls: ['./app.styles.scss']
 })
 export class AppComponent {}

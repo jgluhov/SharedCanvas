@@ -11,7 +11,7 @@ module.exports = {
     },
 
     resolve: {
-        extensions: ['.ts', '.js']    
+        extensions: ['.ts', '.js', 'scss']
     },
 
     output: {
@@ -31,15 +31,15 @@ module.exports = {
             {
                 test: /\.(ts|js)$/,
                 loaders: [
-                  'angular-router-loader?aot=true'
+                    'angular-router-loader?aot=true'
                 ]
-            }              
+            }
         ]
     },
 
     plugins: [
         new webpack.ContextReplacementPlugin(
-            /\@angular(\\|\/)core(\\|\/)esm5/, 
+            /\@angular(\\|\/)core(\\|\/)esm5/,
             path.resolve(__dirname, 'src')
         ),
         new HtmlWebpackPlugin({
@@ -56,4 +56,4 @@ module.exports = {
         historyApiFallback: true,
         stats: 'minimal',
     }
-}
+};
