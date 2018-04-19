@@ -8,6 +8,6 @@ import {
         <app-logo>Shared Canvas</app-logo>
         <app-version></app-version>
     `,
-    styleUrls: ['./header.styles.css']
+    styleUrls: ['./header.styles.scss']
 })
 export class HeaderComponent {}

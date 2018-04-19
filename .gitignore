@@ -12,6 +12,9 @@ aot/
 !.vscode/launch.json
 !.vscode/extensions.json
 
+# IDE - JetBrains
+.idea/*
+
 # misc
 npm-debug.log
 

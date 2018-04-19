@@ -1,7 +1,5 @@
 .sidebar {
   display: flex;
-  width: var(--sidebar-width);
   justify-content: center;
   box-shadow:1px 0 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-  background-color: var(--white-color);
 }

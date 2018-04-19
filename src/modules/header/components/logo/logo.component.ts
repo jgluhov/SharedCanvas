@@ -12,7 +12,7 @@ import {
 
 @Component({
     selector: 'app-logo',
-    styleUrls: ['./logo.styles.css'],
+    styleUrls: ['./logo.styles.scss'],
     template: `
         <div [@logoState]="logoState">
             <ng-content></ng-content>

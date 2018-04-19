@@ -5,7 +5,7 @@ import {
 @Component({
     selector: 'app-version',
     template: '{{ version }}',
-    styleUrls: ['./version.styles.css']
+    styleUrls: ['./version.styles.scss']
 })
 export class VersionComponent {
     public version: string = process.env.VERSION || '';
