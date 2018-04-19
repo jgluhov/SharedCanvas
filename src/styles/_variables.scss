@@ -1,0 +1,30 @@
+/*
+ * Fonts
+*/
+$font-comic-sans: "Comic Sans MS", cursive, sans-serif;
+
+/*
+ *  Colors - "Mellow Musings"
+*/
+$color-white: #FFFFFF;
+$color-powder-blue: #C4D4E0;
+$color-nantucket: #9AABB9;
+$color-apricot: #E2B49A;
+$color-jasmine: #E9C77B;
+$color-ink: #193446;
+
+/*
+ * Header
+*/
+$header-height: 60px;
+$header-padding: 0 15px;
+$header-bg-color: $color-jasmine;
+$header-box-shadow: 0 1px 2px 3px $color-apricot;
+/*
+ * Logo
+*/
+$logo-height: 30px;
+$logo-font-size: 18px;
+$logo-line-height: $logo-font-size + (($logo-height - $logo-font-size) / 2);
+$logo-color: $color-white;
+$logo-text-shadow: 0 1px 0 rgba($color-white, 0.4);

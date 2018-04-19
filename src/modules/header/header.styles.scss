@@ -1,6 +1,11 @@
+@import '../../styles/variables.scss';
+
 :host {
     display: flex;
     align-items: center;
-    padding: 0 15px;
-    z-index: 1;
+    height: $header-height;
+    padding: $header-padding;
+    background-color: $header-bg-color;
+    box-shadow: $header-box-shadow;
+    line-height: $logo-line-height;
 }
