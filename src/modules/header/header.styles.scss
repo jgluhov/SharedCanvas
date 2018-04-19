@@ -2,10 +2,10 @@
 
 :host {
     display: flex;
+    flex-shrink: 0;
     align-items: center;
-    height: $header-height;
-    padding: $header-padding;
     background-color: $header-bg-color;
     box-shadow: $header-box-shadow;
-    line-height: $logo-line-height;
+    flex-basis: $header-height;
+    padding: $header-padding;
 }

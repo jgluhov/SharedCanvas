@@ -4,7 +4,7 @@ import { Component } from '@angular/core';
   selector: 'app-home',
   styleUrls: [ './home.styles.scss' ],
   template: `
-    <app-sidebar><app-sidebar>
+    <app-dashboard><app-dashboard>
   `
 })
 

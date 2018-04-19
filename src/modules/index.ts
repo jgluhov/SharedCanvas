@@ -1,2 +1,2 @@
-export { SidebarModule } from './sidebar/sidebar.module';
+export { DashboardModule } from './dashboard/dashboard.module';
 export { HeaderModule } from './header/header.module';

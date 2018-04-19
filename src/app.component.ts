@@ -1,7 +1,5 @@
-import {
-    Component
-} from '@angular/core';
-console.log(require('./app.styles.scss'));
+import { Component } from '@angular/core';
+
 @Component({
     selector: 'app-root',
     template: `
