@@ -6,7 +6,6 @@ import {
     selector: 'app-header',
     template: `
         <app-logo>Shared Canvas</app-logo>
-        <app-version></app-version>
     `,
     styleUrls: ['./header.styles.scss']
 })

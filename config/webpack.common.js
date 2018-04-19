@@ -41,19 +41,21 @@ module.exports = {
                 include: [
                     helpers.root('src', 'styles')
                 ],
-                use: [
-                    'style-loader',
-                    'css-loader',
-                    'sass-loader'
-                ]
+                use: [{
+                    loader: 'style-loader'
+                }, {
+                    loader: 'css-loader'
+                }, {
+                    loader: 'sass-loader'
+                }],
             },
             {
                 test: /\.scss$/,
-                loaders: [
-                    'raw-loader',
-                    'css-loader',
-                    'sass-loader'
-                ],
+                use: [{
+                    loader: 'raw-loader'
+                }, {
+                    loader: 'sass-loader'
+                }],
                 exclude: [
                     helpers.root('src', 'styles')
                 ]

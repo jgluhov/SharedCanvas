@@ -1,16 +1,7 @@
-import {
-    NgModule, Version
-} from '@angular/core';
-import {
-    CommonModule
-} from '@angular/common';
-import {
-    HeaderComponent
-} from './header.component';
-import {
-    LogoComponent,
-    VersionComponent
-} from './components';
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { HeaderComponent } from './header.component';
+import { LogoComponent } from './components';
 
 @NgModule({
     imports: [
@@ -18,8 +9,7 @@ import {
     ],
     declarations: [
         HeaderComponent,
-        LogoComponent,
-        VersionComponent
+        LogoComponent
     ],
     exports: [
         HeaderComponent
