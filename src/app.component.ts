@@ -4,10 +4,7 @@ import { Component } from '@angular/core';
     selector: 'app-root',
     template: `
         <app-header></app-header>
-        <router-outlet></router-outlet>
     `,
-    styles: [
-        require('./app.styles.scss')
-    ]
+    styleUrls: ['./app.styles.scss']
 })
 export class AppComponent {}
