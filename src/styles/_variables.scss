@@ -6,7 +6,7 @@ $font-comic-sans: "Comic Sans MS", cursive, sans-serif;
 /*
  * Shadows
 */
-$shadow-paper: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+$shadow-paper: 0 0 1px rgba(34, 25, 25, 0.4);;
 
 /*
  *  Colors - "Mellow Musings"
@@ -37,7 +37,7 @@ $logo-text-shadow: 0 1px 0 rgba($color-ink, 0.4);
 /*
  * Sidebar
 */
-$dashboard-width: 100px;
+$dashboard-width: 300px;
 $dashboard-box-shadow: $shadow-paper;
 
 /*

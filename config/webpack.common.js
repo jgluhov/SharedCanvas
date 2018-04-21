@@ -81,7 +81,8 @@ module.exports = {
             template: './src/index.html',
             minify: {
                 collapseWhitespace: ENV === 'production'
-            }
+            },
+            favicon: './src/favicon.png'
         }),
         new webpack.ContextReplacementPlugin(
             /@angular(\\|\/)core(\\|\/)esm5/,
