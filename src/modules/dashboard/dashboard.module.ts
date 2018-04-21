@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
-import { ColorPaletteComponent } from './components';
+import {
+    ColorPaletteComponent,
+    ToggleButtonComponent
+} from '@components';
 
 @NgModule({
     imports: [
@@ -9,7 +12,8 @@ import { ColorPaletteComponent } from './components';
     ],
     declarations: [
         DashboardComponent,
-        ColorPaletteComponent
+        ColorPaletteComponent,
+        ToggleButtonComponent
     ],
     exports: [
         DashboardComponent

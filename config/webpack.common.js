@@ -16,7 +16,8 @@ module.exports = {
     resolve: {
         extensions: ['.ts', '.js', '.scss'],
         alias: {
-            '@modules': helpers.root('modules')
+            '@modules': helpers.root('src', 'modules'),
+            '@components': helpers.root('src', 'components')
         }
     },
 

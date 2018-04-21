@@ -4,8 +4,7 @@ import { Component } from '@angular/core';
     selector: 'app-color-palette',
     styleUrls: ['./color-palette.styles.scss'],
     template: `
-        <div class="color-palette__list">
-        </div>
+        <app-toggle-button></app-toggle-button>
     `
 })
 export class ColorPaletteComponent {}
