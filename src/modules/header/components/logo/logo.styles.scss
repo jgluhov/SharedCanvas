@@ -5,6 +5,9 @@
     font-size: $logo-font-size;
     color: $logo-color;
     text-shadow: $logo-text-shadow;
-    line-height: $logo-line-height;
     cursor: pointer;
+}
+
+.app-logo__content {
+    line-height: $logo-height;
 }

@@ -14,7 +14,7 @@ import {
     selector: 'app-logo',
     styleUrls: ['./logo.styles.scss'],
     template: `
-        <div [@logoState]="logoState">
+        <div [@logoState]="logoState" class="app-logo__content">
             <ng-content></ng-content>
         </div>
     `,

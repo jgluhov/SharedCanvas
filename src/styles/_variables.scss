@@ -17,6 +17,7 @@ $color-nantucket: #9AABB9;
 $color-apricot: #E2B49A;
 $color-jasmine: #E9C77B;
 $color-ink: #193446;
+$color-burgundy: #A3463F;
 
 /*
  * Header
@@ -30,13 +31,13 @@ $header-box-shadow: $shadow-paper;
 */
 $logo-height: 30px;
 $logo-font-size: 18px;
-$logo-line-height: $logo-font-size + (($logo-height - $logo-font-size) / 2);
 $logo-color: $color-ink;
 $logo-text-shadow: 0 1px 0 rgba($color-ink, 0.4);
 
 /*
  * Sidebar
 */
+$dashboard-bg-color: $color-white;
 $dashboard-width: 300px;
 $dashboard-box-shadow: $shadow-paper;
 
