@@ -1,2 +1,7 @@
 @import '../../styles/variables.scss';
 
+:host {
+    grid-area: app-dashboard;
+    box-shadow: $dashboard-box-shadow;
+    overflow-wrap: break-word;
+}

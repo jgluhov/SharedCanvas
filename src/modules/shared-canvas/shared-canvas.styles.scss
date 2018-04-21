@@ -1,3 +1,7 @@
+@import '../../styles/variables.scss';
+
 :host {
-    background-color: red;
+    grid-area: app-shared-canvas;
+    background-color: $shared-canvas-bg-color;
+    box-shadow: $shared-canvas-box-shadow;
 }

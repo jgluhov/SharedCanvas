@@ -4,6 +4,11 @@
 $font-comic-sans: "Comic Sans MS", cursive, sans-serif;
 
 /*
+ * Shadows
+*/
+$shadow-paper: 0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+
+/*
  *  Colors - "Mellow Musings"
 */
 $color-white: #FFFFFF;
@@ -18,18 +23,25 @@ $color-ink: #193446;
 */
 $header-height: 60px;
 $header-padding: 0 15px;
-$header-bg-color: $color-jasmine;
-$header-box-shadow: 0 1px 2px 3px $color-apricot;
+$header-bg-color: $color-white;
+$header-box-shadow: $shadow-paper;
 /*
  * Logo
 */
 $logo-height: 30px;
 $logo-font-size: 18px;
 $logo-line-height: $logo-font-size + (($logo-height - $logo-font-size) / 2);
-$logo-color: $color-white;
-$logo-text-shadow: 0 1px 0 rgba($color-white, 0.4);
+$logo-color: $color-ink;
+$logo-text-shadow: 0 1px 0 rgba($color-ink, 0.4);
 
 /*
  * Sidebar
 */
-$sidebar-width: 100px;
+$dashboard-width: 100px;
+$dashboard-box-shadow: $shadow-paper;
+
+/*
+ * Shared Canvas
+*/
+$shared-canvas-bg-color: $color-white;
+$shared-canvas-box-shadow: $shadow-paper;
