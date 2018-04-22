@@ -2,7 +2,7 @@
 @import './../../styles/variables.scss';
 
 :host {
-    @include size($squishy-button-size);
+    display: block;
 }
 
 @mixin squishy-button-theme($size, $color) {
@@ -27,11 +27,7 @@
     border-radius: 50%;
     border: none;
 
-    &:active {
-        margin-top: 1px;
-        outline: none;
-    }
-
+    &:active,
     &:focus {
         outline: none;
     }
