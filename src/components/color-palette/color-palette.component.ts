@@ -2,6 +2,7 @@ import { Component } from '@angular/core';
 import { Store } from '@ngrx/store';
 import { Observable } from 'rxjs/Observable';
 import { AppState } from '@store';
+import { Color } from '@models';
 
 @Component({
     selector: 'app-color-palette',
@@ -13,7 +14,7 @@ import { AppState } from '@store';
     `
 })
 export class ColorPaletteComponent {
-    colors$: Observable<string[]>;
+    colors$: Observable<Color[]>;
 
     constructor(public store: Store<AppState>) {
         this.colors$ = this.store

@@ -12,7 +12,7 @@ import { animate, trigger, state, style, transition } from '@angular/animations'
     animations: [
         trigger('btnState', [
             state('pressed', style({
-                transform: 'scale(0.95)'
+                transform: 'scale(0.9)'
             })),
             state('*', style({
                 transform: 'scale(1)'
