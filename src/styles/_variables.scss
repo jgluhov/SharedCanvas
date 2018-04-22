@@ -19,7 +19,12 @@ $color-jasmine: #E9C77B;
 $color-ink: #193446;
 $color-burgundy: #A3463F;
 $color-ash: #CCD0D4;
-$color-red: red;
+$color-red: #ED2939;
+$color-orange: #F9812A;
+$color-yellow: #FADA5E;
+$color-green: #00A86B;
+$color-blue: #3498DB;
+$color-purple: #723584;
 
 /*
  * Header
@@ -42,7 +47,6 @@ $logo-text-shadow: 0 1px 0 rgba($color-ink, 0.4);
 $dashboard-bg-color: $color-white;
 $dashboard-width: 600px;
 $dashboard-box-shadow: $shadow-paper;
-$dashboard-padding: 10px;
 /*
  * Shared Canvas
 */
@@ -50,5 +54,6 @@ $shared-canvas-bg-color: $color-white;
 $shared-canvas-box-shadow: $shadow-paper;
 
 /*
- * Toggle Button
+ * Squishy Button
 */
+$squishy-button-size: 30px;

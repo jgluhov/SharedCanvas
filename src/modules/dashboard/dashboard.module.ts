@@ -3,7 +3,7 @@ import { CommonModule } from '@angular/common';
 import { DashboardComponent } from './dashboard.component';
 import {
     ColorPaletteComponent,
-    ToggleButtonComponent
+    SquishyButtonComponent
 } from '@components';
 
 @NgModule({
@@ -13,7 +13,7 @@ import {
     declarations: [
         DashboardComponent,
         ColorPaletteComponent,
-        ToggleButtonComponent
+        SquishyButtonComponent
     ],
     exports: [
         DashboardComponent

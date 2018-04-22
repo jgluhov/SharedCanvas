@@ -1,0 +1,10 @@
+@import '../../styles/variables.scss';
+
+:host {
+    display: inline-grid;
+}
+
+.color-palette__item {
+    padding: 5px;
+    background-color: rgba($color-burgundy, 0.2);
+}
