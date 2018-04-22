@@ -18,7 +18,8 @@ module.exports = {
         alias: {
             '@modules': helpers.root('src', 'modules'),
             '@components': helpers.root('src', 'components'),
-            '@store': helpers.root('src', 'store')
+            '@store': helpers.root('src', 'store'),
+            '@models': helpers.root('src', 'models')
         }
     },
 

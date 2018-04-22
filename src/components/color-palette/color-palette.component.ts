@@ -8,7 +8,7 @@ import { AppState } from '@store';
     styleUrls: ['./color-palette.styles.scss'],
     template: `
         <div class="color-palette__item" *ngFor="let color of colors$ | async">
-            <app-squishy-button [color]="color"></app-squishy-button>
+            <app-squishy-button [color]="color.name"></app-squishy-button>
         </div>
     `
 })

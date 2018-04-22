@@ -1,7 +1,8 @@
 import { Action } from '@ngrx/store';
+import { Color } from '@models';
 
 export interface DashboardState {
-    colors: string[];
+    colors: Color[];
 }
 
 const initialState = {
@@ -13,6 +14,7 @@ const initialState = {
         'blue',
         'purple'
     ]
+    .map((name: string) => new Color(name))
 };
 
 export function dashboardReducer(
