@@ -1,21 +1,23 @@
 import { Component } from '@angular/core';
+import { Store } from '@ngrx/store';
+import { Observable } from 'rxjs/Observable';
+import { AppState } from '@store';
 
 @Component({
     selector: 'app-color-palette',
     styleUrls: ['./color-palette.styles.scss'],
     template: `
-        <div class="color-palette__item" *ngFor="let color of colors">
+        <div class="color-palette__item" *ngFor="let color of colors$ | async">
             <app-squishy-button [color]="color"></app-squishy-button>
         </div>
     `
 })
 export class ColorPaletteComponent {
-    public colors: string[] = [
-        'red',
-        'orange',
-        'yellow',
-        'green',
-        'blue',
-        'purple'
-    ];
+    colors$: Observable<string[]>;
+
+    constructor(public store: Store<AppState>) {
+        this.colors$ = this.store
+            .select('dashboard')
+            .select('colors');
+    }
 }

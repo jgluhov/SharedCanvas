@@ -17,7 +17,8 @@ module.exports = {
         extensions: ['.ts', '.js', '.scss'],
         alias: {
             '@modules': helpers.root('src', 'modules'),
-            '@components': helpers.root('src', 'components')
+            '@components': helpers.root('src', 'components'),
+            '@store': helpers.root('src', 'store')
         }
     },
 
