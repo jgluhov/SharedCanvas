@@ -5,20 +5,8 @@ export interface DashboardState {
     colors: Color[];
 }
 
-const initialState = {
-    colors: [
-        'red',
-        'orange',
-        'yellow',
-        'green',
-        'blue',
-        'purple'
-    ]
-    .map((name: string) => new Color(name))
-};
-
 export function dashboardReducer(
-    state: DashboardState = initialState,
+    state,
     action: Action
 ) {
     switch (action.type) {

@@ -4,11 +4,6 @@
 $font-comic-sans: "Comic Sans MS", cursive, sans-serif;
 
 /*
- * Shadows
- */
-$shadow-paper: 0 0 1px rgba(34, 25, 25, 0.4);;
-
-/*
  *  Colors - "Mellow Musings"
  */
 $color-white: #FFFFFF;
@@ -32,7 +27,6 @@ $color-purple: #723584;
 $header-height: 60px;
 $header-padding: 0 15px;
 $header-bg-color: $color-white;
-$header-box-shadow: $shadow-paper;
 
 /*
  * Logo
@@ -46,20 +40,8 @@ $logo-color: $color-ink;
  */
 $dashboard-bg-color: $color-white;
 $dashboard-width: 50px;
-$dashboard-box-shadow: $shadow-paper;
 
 /*
  * Shared Canvas
  */
 $shared-canvas-bg-color: $color-white;
-$shared-canvas-box-shadow: $shadow-paper;
-
-/*
- * Dashboard
- */
-$dashboard-icon-size: 40px;
-
-/*
- * Squishy Button
- */
-$squishy-button-size: $dashboard-icon-size;
